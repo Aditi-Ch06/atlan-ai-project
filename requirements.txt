@@ -1,3 +1,7 @@
+--find-links https://download.pytorch.org/whl/cpu
+torch==2.1.0
+torchvision==0.16.0
+sentence-transformers==2.2.2
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.15
 aiosignal==1.4.0
@@ -81,7 +85,6 @@ rsa==4.9.1
 safetensors==0.6.2
 scikit-learn==1.7.1
 scipy==1.16.1
-sentence-transformers==2.2.2
 setuptools==80.9.0
 six==1.17.0
 smmap==5.0.2
@@ -93,8 +96,6 @@ tenacity==9.1.2
 threadpoolctl==3.6.0
 tokenizers==0.21.4
 toml==0.10.2
-torch==2.1.0
-torchvision==0.16.0
 tornado==6.5.2
 tqdm==4.67.1
 transformers==4.55.2
