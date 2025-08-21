@@ -1,3 +1,6 @@
+grpcio==1.54.2
+google-api-python-client==2.100.0
+protobuf==4.25.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.15
 aiosignal==1.4.0
