@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import SentenceTransformerEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_google_genai import GoogleGenerativeAI
@@ -40,7 +40,7 @@ def process_pdf(pdf_path):
 
     # 3. creating embeddings for the chunks
     # using a powerful open-source model that runs on local machine
-    embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
     # 4. creating the vector store
     # this will download the embedding model the first time it's run.
