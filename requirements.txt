@@ -1,15 +1,8 @@
-protobuf==3.20.0
-# main web framework
 streamlit
-# core langchain library
-langchain
-# for the google gemini llm & embeddings
-langchain-google-genai
-# for the pdf loader & other community integrations
-langchain-community
-# the pdf parsing engine
+langchain==0.1.20
+langchain-google-genai==0.1.6
+langchain-community==0.0.38
+pydantic==2.6.4
 pymupdf
-# the vector store
 faiss-cpu
-# for loading the .env file
 python-dotenv
