@@ -2,7 +2,7 @@
 
 A conversational AI application built with Streamlit and LangChain that allows users to upload a research paper (PDF) and ask questions about its content.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_DEPLOYED_APP_LINK_HERE)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chat-with-research-paper-clqnagccgsgnjvpcunmfbd.streamlit.app/)
 
 ## 🎥 Video Demo
 
