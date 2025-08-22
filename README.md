@@ -6,7 +6,7 @@ A conversational AI application built with Streamlit and LangChain that allows u
 
 ## 🎥 Video Demo
 
-[Watch a 60-second demo of the app in action here!](YOUR_LOOM_VIDEO_LINK_HERE)
+[Watch a 60-second demo of the app in action here!](https://www.loom.com/share/e0c406f4646f42d09a45fb49b377c701?sid=2bc3c4b6-0cd4-4982-8ddf-f20df833135d)
 
 ## ✨ Key Features
 
